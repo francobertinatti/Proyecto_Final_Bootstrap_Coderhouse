@@ -15,6 +15,10 @@
     border-color: white;
 }
 
+.img-fluid{
+    min-width: auto;
+}
+
 /* CSS Grid */
 
 
