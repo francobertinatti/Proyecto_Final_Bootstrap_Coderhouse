@@ -4,7 +4,6 @@
     outline: 0;
     box-sizing: border-box;
 }
-
 /* CSS Layout GENERALES */
 
 
@@ -15,9 +14,7 @@
     border-color: white;
 }
 
-.img-fluid{
-    min-width: auto;
-}
+
 
 /* CSS Grid */
 
