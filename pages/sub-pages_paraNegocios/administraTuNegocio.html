@@ -12,6 +12,8 @@
     <title>InterestelarXP</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- ICONS BS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- AOS ANIMATES -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- CSS -->
@@ -30,10 +32,10 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/registrarse.html">Registrarse</a>
+                                        <a class="nav-link" href="/pages/registrarse.html">Registrarse</a>
                                     </li>
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,13 +43,13 @@
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                             <li><a class="dropdown-item" href="#">Administra tu negocio</a></li>
-                                            <li><a class="dropdown-item" href="#">Catalogo Virtual</a></li>
+                                            <li><a class="dropdown-item" href="./catalogoVirtual.html">Catalogo Virtual</a></li>
                                             <li><hr class="dropdown-divider"></li>
-                                            <li><a class="dropdown-item" href="#">Sobre InterestelarXP</a></li>
+                                            <li><a class="dropdown-item" href="./sobreinterestelarxp.html">Sobre InterestelarXP</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/blog.html">Blog</a>
+                                        <a class="nav-link" href="/pages/blog.html">Blog</a>
                                     </li>
                                 </ul>
                                 <form class="d-flex">
@@ -63,25 +65,67 @@
     </header>
     <main>
         <!-- INICIO MAIN -->
-        
+        <!-- HERO -->
         <div class="px-4 pt-5 my-5 text-center border-bottom">
-            <h1 class="display-4 fw-bold">Centered screenshot</h1>
+            <h1 class="display-4 fw-bold">Administrar tu negocio nunca fue tan fácil</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <p class="lead mb-4">Lleva las cuentas, transacciones y todas las operaciones de tu pequeño negocio de forma rápida y segura.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">¡Quiero InterestelarXP para mi negocio!</button>
                 </div>
             </div>
-            <div class="overflow-hidden" style="max-height: 30vh;">
-                <div class="container px-5">
-                <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+            <div class="overflow-hidden" style="max-height: 80vh;">
+                <div class="container px-4">
+                <img src="/assets/homeJpg.jpg" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
                 </div>
             </div>
         </div>
 
-
-
+        <!-- SECTION 1 -->
+        <div class="container px-4 py-5">
+            <h2 class="pb-2 border-bottom">InterestelarXP es el aliado de tu negocio</h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <!-- 4 BENEFICIOS -->
+                <div class="col d-flex align-items-start">
+                    <div class="text-dark me-3 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z"/>
+                            <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                        </svg>
+                    </div>
+                
+                    <div>
+                        <h2>La seguridad es lo primero</h2>
+                        <p>Toda la información de tu negocio en tu celular, almacenada de manera segura en la nube. ¡No corras el riesgo de anotar todo en tu cuaderno y luego perderlo!</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="text-dark me-3 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-file-bar-graph" viewBox="0 0 16 16">
+                            <path d="M4.5 12a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5h-1zm3 0a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-1zm3 0a.5.5 0 0 1-.5-.5v-6a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-.5.5h-1z"/>
+                            <path d="M4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4zm0 1h8a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h2>Toma mejores decisiones de negocio</h2>
+                        <p>Somos más que una app de registros. Recibe reportes y estadísticas para tener el control total de las finanzas de tu negocio.</p>
+                    </div>
+                </div>
+                <div class="col d-flex align-items-start">
+                    <div class="text-dark me-3 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                            <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+                        </svg>
+                    </div>
+                
+                    <div>
+                        <h2>Súper fácil de usar</h2>
+                        <p>No necesitas ser un ninja en Excel para llevar tus finanzas. ¡En Treinta te la ponemos fácil!</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
         <!-- FIN MAIN -->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <!--AOS ANIMACION-->
