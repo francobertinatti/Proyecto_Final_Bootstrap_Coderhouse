@@ -4,142 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilo.css">
     <script src="https://kit.fontawesome.com/dbe761d2b1.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="../js/app.js" defer></script>
-
-    <title>Nosotros</title>
+    <title>InterestelarXP</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- ICONS BS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- AOS ANIMATES -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/estilo.css">
 </head>
 <body>
     <header>
-        <!-- Menu estatico superior-->
-        <nav class="navMenu">
-            <label class="lbl_Logo">InterestelarXP</label>
-            <ul class="ul_menu_items">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="./proyectos.html">Proyectos</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./registrarse.html">Registrarse</a></li>
-            </ul>
-            <span class="span_btn_menu">
-                <i class="fa-solid fa-bars"></i>
-            </span>
-        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12"> 
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">InterestelarXP</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon "></span></button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/pages/registrarse.html">Registrarse</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Para Negocios
+                                        </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="./administraTuNegocio.html">Administra tu negocio</a></li>
+                                            <li><a class="dropdown-item" href="./catalogoVirtual.html">Catalogo Virtual</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="./sobreinterestelarxp.html">Sobre InterestelarXP</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="/pages/blog.html">Blog</a>
+                                    </li>
+                                </ul>
+                                <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>   
     </header>
-    <main class="caja-principal">
-        <div class="container-Team-grid">
-            <div class="titulo-pagEquipo">
-                <h1>Cumplimos 1 año en <span>InterestelarXP</span></h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos odit saepe illo eaque, laudantium praesentium recusandae corrupti error delectus facere deleniti neque accusamus harum corporis omnis maxime, ipsam officiis itaque.</p>
+    <main>
+        <!-- EQUIPO -->
+        <div class="container col-12 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img src="/assets/EQUIPO.jpeg" class="d-block mx-lg-auto img-fluid"loading="lazy">
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-5 fw-bold lh-1 mb-3">El equipo que hace todo posible</h1>
+                    <p class="lead">InterestelarXp nació de la iniciativa de dos co-fundadores nacidos en Barcelona, Man y Lluís, quienes en 2020 dejaron su hogar para fundar InterestelarXp en <strong>Bogotá, Colombia</strong> .</p>
+                    <br>
+                    <P class="lead">En la actualidad, en InterestelarXp somos un equipo con más de 100 personas, trabajando en Colombia y diferentes países de Latinoamérica.</P>
+                    <br>
+                    <P class="lead">Y en este equipo multidisciplinar y multicultural todos tenemos algo en común: la motivación de trabajar día y noche para apoyar a los negocios locales e impulsar el motor de la economía Latinoamericana.</P>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">¿Quieres ser parte del equipo?</button>
+                    </div>
+                </div>
             </div>
-            <div class="img-pagEquipo">
-                <h1>¿Queres ser parte del Team?</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus dolor repellat tenetur odio ex aperiam perferendis neque? Architecto vel provident odit impedit cupiditate culpa dicta sequi nisi incidunt quia.</p>
-                <img src="../assets/1591039127764.jfif" alt="">
-            </div>
-            <div class="contenido-pagEquipo">
-                <h2>Lorem ipsum dolor sit amet</h2>
-                <a href="https://www.lagaceta.com.ar/nota/952740/sociedad/programadores-tucumanos-no-tienen-nada-envidiarles-yale-harvard.html" class="textoPrincipal_Bottom btnAnimated">Ingresa a la nota relevante de este año</a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati natus dolor repellat tenetur odio ex aperiam perferendis neque? Architecto vel provident odit impedit cupiditate culpa dicta sequi nisi incidunt quia.</p>
-                
-            </div>
-            <div class="btn-pagEquipo">
-                <a href="#" target="_blank" class="textoPrincipal_Bottom btnAnimated">Crea tu catálogo virtual</a>
-            </div>
-        </div>          
+        </div>
+
+        <!-- CARROUSEL -->
+
+
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!--AOS ANIMACION-->
+        <script>
+            AOS.init();
+        </script>
     </main>
-    <footer>
-        <div class="topbar">
-            <div class="rrss">
-                <a href="#">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-square-instagram"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fa-brands fa-twitch"></i>
-                </a>    
-            </div>
-        </div>
-        <div class="sitemap">
-            <div class="col">
-                <ul>
-                    <!-- Se agregan categorias a modo de ejemplo -->
-                    <li>
-                        <span>Soluciones</span>
-                    </li>
-                    <li>
-                        <a href="#">Administra tu negocio</a>
-                    </li>
-                    <li>
-                        <a href="#">Not-sys para PC</a>
-                    </li>
-                    <li>
-                        <a href="#">Catálogo virtual</a>
-                    </li>
-                    <li>
-                        <a href="#">Surte tu negocio</a>
-                    </li>                    
+    <div class="container-fluid">
+        <footer class="pt-5 mx-5">
+            <div class="row justify-content-between">
+            <div class="col-lg-3 col-mb-12">
+                <h5 class="text-warning">InterestelarXP</h5>
+                <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="/index.html" class="nav-link p-0 text-muted">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Trabaja con nosotros</a></li>
+                <li class="nav-item mb-2"><a href="/pages/blog.html" class="nav-link p-0 text-muted">Blog</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
                 </ul>
             </div>
-            <div class="col">
-                <ul>
-                    <!-- Se agregan categorias a modo de ejemplo -->
-                    <li>
-                        <span>Sobre Not-sys</span>
-                    </li>
-                    <li>
-                        <a href="./registrarse.html">Trabaja con nosotros</a>
-                    </li> 
-                    <li>
-                        <a href="./blog.html">Blog</a>
-                    </li> 
-                    <li>
-                        <a href="#">Conócenos</a>
-                    </li>
-                    <li>
-                        <a href="/pages/contacto.html">Contáctanos</a>
-                    </li>
-                    <li>
-                        <a href="#">Términos y condiciones</a>
-                    </li>
-                    <li>
-                        <a href="#">Políticas de privacidad</a>
-                    </li>
+        
+            <div class="col-lg-3 col-mb-12">
+                <h5 class="text-warning">Soluciones</h5>
+                <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="./administraTuNegocio.html" class="nav-link p-0 text-muted">Administra tu negocio</a></li>
+                <li class="nav-item mb-2"><a href="./catalogoVirtual.html" class="nav-link p-0 text-muted">Catálogo virtual</a></li>
+                <li class="nav-item mb-2"><a href="./catalogoVirtual.html" class="nav-link p-0 text-muted">Planes</a></li>
                 </ul>
             </div>
-            <div class="col">
-                <ul>
-                    <li>
-                        <span>Redes Sociales</span>
-                    </li>
-                    <li>
-                        <a href="#">Facebook</a>
-                    </li> 
-                    <li>
-                        <a href="#">Instagram</a>
-                    </li> 
-                    <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="#">Twitch</a>
-                    </li>
-                </ul>
+        
+            <div class="col-lg-6 col-mb-12">
+                <form>
+                <h5>Newsletter</h5>
+                <p>Descubre por qué convencimos a más de 300.000 clientes.</p>
+                <div class="d-flex w-100 gap-2">
+                    <label for="newsletter1" class="visually-hidden">Email</label>
+                    <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                    <button class="btn btn-primary" type="button">Regístrate</button>
+                </div>
+                </form>
             </div>
-        </div>
-        <div class="copyright">
-            © Copyright 2022 CoderHouse
-        </div>
-    </footer>
-    </body>
-  </html>
+            </div>
+
+            <div class="d-flex justify-content-between border-top py-2">
+            <p>© Copyright 2022 CoderHouse. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+            </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
