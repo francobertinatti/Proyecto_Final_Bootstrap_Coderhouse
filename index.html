@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12"> 
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-main mt-2">
                         <div class="container-fluid">
                             <a class="navbar-brand" href="#">InterestelarXP</a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +31,13 @@
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        <a class="nav-link disable" aria-current="page" href="#">Home</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/registrarse.html">Registrarse</a>
+                                        <a class="nav-link active" href="./pages/registrarse.html">Registrarse</a>
                                     </li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Para Negocios
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,12 +48,15 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="./pages/blog.html">Blog</a>
+                                        <a class="nav-link active" href="./pages/blog.html">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="./pages/faqs.html">FaQs</a>
                                     </li>
                                 </ul>
                                 <form class="d-flex">
                                 <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
-                                <button class="btn btn-outline-success" type="submit">Buscar</button>
+                                <button class="btn btn_shadow text-black" type="submit">Buscar</button>
                                 </form>
                             </div>
                         </div>
@@ -71,14 +74,15 @@
                     <p class="lead">Crea tu catálogo virtual 100% gratis y en segundos para y toma el control de tus ventas digitales.</p>
                     <a href="#" target="_blank"></a>
                     <div class="d-grid gap-2 col-6 mx-auto">
-                        <button class="btn btn-primary" type="button">Crea tu catálogo virtual</button>
+                        <button class="btn btn_shadow text-black" type="button">Crea tu catálogo virtual
+                        </button>
                     </div>
                     <h6 class="text-muted py-2">Es 100% gratis</h6>
                 </div>
             </div>
         </div>    
         <div class="container-fluid">
-            <div class="rounded shadow row text-center  bg-secondary bg-gradient m-3">
+            <div class="rounded shadow p-3 mb-5 row text-center bg-nav m-3">
                     <div class="col-12 col-lg-12 py-3 my-2">
                         <h1 class="text-center text-warning fw-bolder my-2">Crea tu catálogo virtual en 3 simples pasos<br></h1>
                     </div>
@@ -86,21 +90,21 @@
                     <div class="col-12 col-lg-3 col-xs-1 mx-auto">
                         <img class="img-flex col col-lg-3" src="assets/paso1.svg" alt="imgPaso1" class="image-3-pasos">
                         <div>
-                            <p class="text-center text-white">Ve a la sección <strong>“Pedidos”</strong> en tu App.</p> 
+                            <p class="text-center text-black">Ve a la sección <strong>“Pedidos”</strong> en tu App.</p> 
                         </div>
                     </div>
                     <!-- GRID PASO 2 -->
                     <div class="col-12 col-lg-3 col-xs-1 mx-auto">
                         <img class="img-flex col col-lg-3" src="assets/paso2.svg" alt="imgPaso2" class="image-3-pasos">
                         <div>
-                            <p class="text-center text-white"><strong>Sube tus productos </strong>al inventario, incluye su precio, cantidad disponible, foto y descripción. Asegúrate de que tus productos estén seleccionados en la lista de la parte inferior de esta sección.</p>
+                            <p class="text-center text-black"><strong>Sube tus productos </strong>al inventario, incluye su precio, cantidad disponible, foto y descripción. Asegúrate de que tus productos estén seleccionados en la lista de la parte inferior de esta sección.</p>
                         </div>
                     </div>
                     <!-- GRID PASO 3 -->
                     <div class="col col-lg-3 col-xs-1 mx-auto">
                         <img class="img-flex col col-lg-3" src="assets/paso3.svg" alt="" class="image-3-pasos">
                         <div>
-                        <p class="text-center text-white"><strong>Comparte el link</strong> de tu tienda por WhatsApp y redes sociales para llegar a más personas.</pcla>
+                        <p class="text-center text-black"><strong>Comparte el link</strong> de tu tienda por WhatsApp y redes sociales para llegar a más personas.</p>
                         </div>
                     </div>
             </div>
@@ -108,9 +112,9 @@
         <!-- CARDS CON BENEFICIOS -->
         <div class="container-fluid ">
             <div class="row row-cols-1 row-cols-md-4 m-1 p-1">
-                <div class="col"  data-aos="fade-up"
+                <div class="col "  data-aos="fade-up"
                 data-aos-duration="500">
-                    <div class="card h-100 text-white bg-dark bg-gradient p-3" >
+                    <div class="bg-main-opacity card h-100 text-white bg-dark bg-gradient p-3" >
                         <img src="./assets/icon1_funcionalidadSistema.svg" class="card-img-top" height="80px" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Administra tu negocio
@@ -121,7 +125,7 @@
                 </div>
                 <div class="col"  data-aos="fade-up"
                 data-aos-duration="1000">
-                    <div class="card h-100 text-white bg-dark bg-gradient p-3">
+                    <div class="bg-main-opacity card h-100 text-white bg-dark bg-gradient p-3">
                         <img src="./assets/icon2_funcionalidadSistema.svg" class="card-img-top" height="80px" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">InterestelarXP para PC
@@ -132,7 +136,7 @@
                 </div>
                 <div class="col" data-aos="fade-up"
                 data-aos-duration="1500">
-                    <div class="card h-100 text-white bg-dark bg-gradient p-3">
+                    <div class="bg-main-opacity card h-100 text-white bg-dark bg-gradient p-3">
                         <img src="./assets/icon3_funcionalidadSistema.svg" class="card-img-top" height="80px" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">Crea tu catálogo virtual
@@ -143,7 +147,7 @@
                 </div>
                 <div class="col" data-aos="fade-up"
                 data-aos-duration="2000">
-                    <div class="card h-100 text-white bg-dark bg-gradient p-3">
+                    <div class="bg-main-opacity card h-100 text-white bg-dark bg-gradient p-3">
                         <img src="./assets/icon4_funcionalidadSistema.svg" class="card-img-top" height="80px" alt="...">
                         <div class="card-body">
                         <h5 class="card-title">¡Gana Ingresos Extra!</h5>
