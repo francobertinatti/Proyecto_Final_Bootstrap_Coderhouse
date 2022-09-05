@@ -32,14 +32,7 @@ h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 
-/* .btn{
-    background-color: rgb(37, 37, 41);
-    border: 1px solid;
-} */
-
-
-
-  /* ANIMACION BTN */
+/* ANIMACION BTN */
 
 .btn_shadow{
     border-color: var(--color-oro);
