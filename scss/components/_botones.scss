@@ -1,0 +1,30 @@
+.btn{
+    background-color: $colorPrimario;
+    border-color: #d6a009;
+    color: white;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+	background-color: #d39d06;
+	border-color: #bb8500;
+	color:#FFFFFF;
+}
+.btn.disabled:hover,
+.btn.disabled:focus,
+.btn.disabled:active,
+.btn.disabled.active,
+.btn[disabled]:hover,
+.btn[disabled]:focus,
+.btn[disabled]:active,
+.btn[disabled].active,
+fieldset[disabled] .btn:hover,
+fieldset[disabled] .btn:focus,
+fieldset[disabled] .btn:active,
+fieldset[disabled] .btn.active {
+	background-color: #e3ad16;
+	border-color: #d6a009;
+	color:#FFFFFF;
+}
