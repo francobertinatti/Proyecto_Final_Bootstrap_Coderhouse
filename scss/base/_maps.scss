@@ -3,7 +3,7 @@ $estilos:(
     centro: center
 );
 
-.card-body{
+.card-body-blog{
     font-size: map-get($estilos,tfuente);
     text-align: map-get($map: $estilos, $key:centro );
 }
