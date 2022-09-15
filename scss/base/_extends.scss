@@ -1,0 +1,13 @@
+.btn-mg{
+	@extend .btn;
+	background-color: blue;
+	color: white;
+	margin: 5px;
+}
+
+.btn-compartir{
+	@extend .btn;
+	background-color: grey;
+	color: white;
+	margin: 5px;
+}

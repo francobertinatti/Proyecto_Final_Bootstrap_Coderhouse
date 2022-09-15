@@ -1,34 +1,72 @@
-.btn {
+.btn, .btn-mg, .btn-compartir {
   background-color: #e37616;
   border-color: #d6a009;
   color: white; }
 
-.btn:hover,
+.btn:hover, .btn-mg:hover, .btn-compartir:hover,
 .btn:focus,
+.btn-mg:focus,
+.btn-compartir:focus,
 .btn:active,
-.btn.active {
+.btn-mg:active,
+.btn-compartir:active,
+.btn.active,
+.active.btn-mg,
+.active.btn-compartir {
   background-color: #d39d06;
   border-color: #bb8500;
   color: #FFFFFF; }
 
-.btn.disabled:hover,
+.btn.disabled:hover, .disabled.btn-mg:hover, .disabled.btn-compartir:hover,
 .btn.disabled:focus,
+.disabled.btn-mg:focus,
+.disabled.btn-compartir:focus,
 .btn.disabled:active,
+.disabled.btn-mg:active,
+.disabled.btn-compartir:active,
 .btn.disabled.active,
+.disabled.active.btn-mg,
+.disabled.active.btn-compartir,
 .btn[disabled]:hover,
+.btn-mg[disabled]:hover,
+.btn-compartir[disabled]:hover,
 .btn[disabled]:focus,
+.btn-mg[disabled]:focus,
+.btn-compartir[disabled]:focus,
 .btn[disabled]:active,
+.btn-mg[disabled]:active,
+.btn-compartir[disabled]:active,
 .btn[disabled].active,
+.btn-mg[disabled].active,
+.btn-compartir[disabled].active,
 fieldset[disabled] .btn:hover,
+fieldset[disabled] .btn-mg:hover,
+fieldset[disabled] .btn-compartir:hover,
 fieldset[disabled] .btn:focus,
+fieldset[disabled] .btn-mg:focus,
+fieldset[disabled] .btn-compartir:focus,
 fieldset[disabled] .btn:active,
-fieldset[disabled] .btn.active {
+fieldset[disabled] .btn-mg:active,
+fieldset[disabled] .btn-compartir:active,
+fieldset[disabled] .btn.active,
+fieldset[disabled] .active.btn-mg,
+fieldset[disabled] .active.btn-compartir {
   background-color: #e3ad16;
   border-color: #d6a009;
   color: #FFFFFF; }
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.4); }
+
+.btn-mg {
+  background-color: blue;
+  color: white;
+  margin: 5px; }
+
+.btn-compartir {
+  background-color: grey;
+  color: white;
+  margin: 5px; }
 
 .bi-facebook {
   color: #3b5998;
