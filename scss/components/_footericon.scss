@@ -1,0 +1,11 @@
+.bi-facebook{
+    @include redes ($fb, 30px)
+}
+
+.bi-instagram{
+    @include redes ($insta, 30px)
+}
+
+.bi-twitter{
+    @include redes ($tw, 30px)
+}

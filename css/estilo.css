@@ -29,3 +29,15 @@ fieldset[disabled] .btn.active {
 
 .navbar {
   background-color: rgba(0, 0, 0, 0.4); }
+
+.bi-facebook {
+  color: #3b5998;
+  font-size: 30px; }
+
+.bi-instagram {
+  color: #8a3ab9;
+  font-size: 30px; }
+
+.bi-twitter {
+  color: #a5bdf2;
+  font-size: 30px; }
