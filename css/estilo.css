@@ -58,6 +58,10 @@ fieldset[disabled] .active.btn-compartir {
 .navbar {
   background-color: rgba(0, 0, 0, 0.4); }
 
+.card-body {
+  font-size: 15px;
+  text-align: center; }
+
 .btn-mg {
   background-color: blue;
   color: white;

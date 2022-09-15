@@ -1,0 +1,9 @@
+$estilos:(
+    tfuente:15px,
+    centro: center
+);
+
+.card-body{
+    font-size: map-get($estilos,tfuente);
+    text-align: map-get($map: $estilos, $key:centro );
+}
