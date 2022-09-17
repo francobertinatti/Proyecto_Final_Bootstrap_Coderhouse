@@ -1,4 +1,5 @@
 {
     "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": true
+    "editor.guides.bracketPairsHorizontal": true,
+    "liveServer.settings.port": 5501
 }
