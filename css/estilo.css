@@ -107,12 +107,12 @@ fieldset[disabled] .active.btn-compartir {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
-  gap: 6px 0px;
-  grid-template-areas: "img_dashboard" "tbl_dashboard"; }
+  grid-template-rows: 0.1fr 1.9fr;
+  gap: 0px 0px;
+  grid-template-areas: "header_dashboard" "tabla_dashboard"; }
 
-.tbl_dashboard {
-  grid-area: tbl_dashboard; }
+.header_dashboard {
+  grid-area: header_dashboard; }
 
-.img_dashboard {
-  grid-area: img_dashboard; }
+.tabla_dashboard {
+  grid-area: tabla_dashboard; }
