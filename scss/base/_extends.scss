@@ -1,6 +1,6 @@
 .btn-mg{
 	@extend .btn;
-	background-color: blue;
+	background-color: $colorPrimario;
 	color: white;
 	margin: 5px;
 }

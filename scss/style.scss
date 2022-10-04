@@ -8,3 +8,30 @@
 @import "components/footericon";
 @import "base/mediaquery";
 
+.grid-container-nav {
+    display: grid;
+    grid-template-columns: 0.2fr 1.8fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 5px;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    grid-template-areas:
+    "logo botones buscador";
+}
+.logo { grid-area: logo;}
+.botones { grid-area: botones; }
+.buscador { grid-area: buscador; }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 6px 0px;
+    grid-template-areas:
+    "img_dashboard"
+    "tbl_dashboard";
+  }
+.tbl_dashboard { grid-area: tbl_dashboard; }
+.img_dashboard { grid-area: img_dashboard; }
