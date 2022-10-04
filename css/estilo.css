@@ -104,10 +104,10 @@ fieldset[disabled] .active.btn-compartir {
 .buscador {
   grid-area: buscador; }
 
-.grid-container {
+.grid-container-main {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr 1.9fr;
+  grid-template-rows: 0.1fr 0.9fr;
   gap: 0px 0px;
   grid-template-areas: "header_dashboard" "tabla_dashboard"; }
 
@@ -116,3 +116,25 @@ fieldset[disabled] .active.btn-compartir {
 
 .tabla_dashboard {
   grid-area: tabla_dashboard; }
+
+.grid-container-footer {
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr 1.4fr;
+  grid-template-rows: 1.5fr 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas: "pages_footer pages2_footer search_footer" "copyright_footer . rrss_footer"; }
+
+.rrss_footer {
+  grid-area: rrss_footer; }
+
+.copyright_footer {
+  grid-area: copyright_footer; }
+
+.pages_footer {
+  grid-area: pages_footer; }
+
+.pages2_footer {
+  grid-area: pages2_footer; }
+
+.search_footer {
+  grid-area: search_footer; }
