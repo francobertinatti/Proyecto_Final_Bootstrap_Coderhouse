@@ -84,6 +84,49 @@ fieldset[disabled] .active.btn-compartir {
   color: #a5bdf2;
   font-size: 30px; }
 
+@media screen and (max-width: 992px) {
+  footer .grid-container-footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 5px 0px;
+    grid-template-areas: "pages_footer" "pages2_footer" "search_footer" "copyright_rrss_footer"; }
+  .copyright_rrss_footer {
+    display: flex; } }
+
+@media screen and (max-width: 1200px) {
+  header .grid-container-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 5px;
+    grid-template-areas: "logo" "botones" "buscador"; }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch; }
+  .botones {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch; }
+  .buscador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-content: stretch; } }
+
 .grid-container-nav {
   display: grid;
   grid-template-columns: 0.2fr 1.8fr 1fr;
