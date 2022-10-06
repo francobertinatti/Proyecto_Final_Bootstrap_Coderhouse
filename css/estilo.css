@@ -90,9 +90,7 @@ fieldset[disabled] .active.btn-compartir {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 5px 0px;
-    grid-template-areas: "pages_footer" "pages2_footer" "search_footer" "copyright_rrss_footer"; }
-  .copyright_rrss_footer {
-    display: flex; } }
+    grid-template-areas: "pages_footer" "pages2_footer" "search_footer" "copyright_rrss_footer"; } }
 
 @media screen and (max-width: 1200px) {
   header .grid-container-nav {
